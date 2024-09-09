@@ -15,8 +15,8 @@ const Typewriter = (props) => {
     },[])
 
   return (
-    <div className='text-tertiaryColor '>
-        <h1 className='text-4xl'>{text}</h1>
+    <div className='text-tertiaryColor text-center '>
+        <h1 className='text-3xl  '>{text}</h1>
     </div>
   )
 }

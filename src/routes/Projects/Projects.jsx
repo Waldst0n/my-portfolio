@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../img/images.jpg'
+import image from '../../img/Logotipo empresa de programação sistemas e tecnologia.png'
 import geedu from '../../img/Captura de tela 2024-09-08 181012.png'
 import Card from '../../components/Card/Card'
 
@@ -18,36 +18,14 @@ const Projects = () => {
                 Segue abaixo o design pronto para visualização
             </h1>
 
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5 ">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 items-center justify-center gap-5 ">
                 <Card
                     image={image}
-                    title="Geedu"
-                    description="Página de Login Simples com HTML e CSS"
-                />
-                <Card
-                    image={image}
-                    title="Meu projeto 1"
-                    description="Site institucional criado com React"
-                />
-                <Card
-                    image={image}
-                    title="Meu projeto 1"
-                    description="Site institucional criado com React"
-                />
-                <Card
-                    image={image}
-                    title="Meu projeto 1"
-                    description="Site institucional criado com React"
-                />
-                <Card
-                    image={image}
-                    title="Meu projeto 1"
-                    description="Site institucional criado com React"
-                />
-                <Card
-                    image={image}
-                    title="Meu projeto 1"
-                    description="Site institucional criado com React"
+                    title="Task Manager"
+                    description="Projeto fullstack criado com nodeJs e React"
+                    link={
+                        'https://gerenciador-de-tarefas-front-flax.vercel.app/'
+                    }
                 />
             </div>
             <a

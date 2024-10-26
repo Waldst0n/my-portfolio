@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../../img/Logotipo empresa de programação sistemas e tecnologia.png'
-import geedu from '../../img/Captura de tela 2024-09-08 181012.png'
+import okanban from '../../img/o-kanban.png'
 import Card from '../../components/Card/Card'
 
 import { FaHtml5 } from 'react-icons/fa'
@@ -26,6 +26,14 @@ const Projects = () => {
                     link={
                         'https://gerenciador-de-tarefas-front-flax.vercel.app/'
                     }
+                />
+            </div>
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 items-center justify-center gap-5 ">
+                <Card
+                    image={okanban}
+                    title="Task Manager"
+                    description="Quadro kanban criado com React"
+                    link={'https://o-kanban-waldst0ns-projects.vercel.app/'}
                 />
             </div>
             <a

@@ -29,7 +29,7 @@ const Projects = () => {
                 />
                 <Card
                     image={okanban}
-                    title="Task Manager"
+                    title="OKanban"
                     description="Quadro kanban criado com React"
                     link={'https://o-kanban-waldst0ns-projects.vercel.app/'}
                 />

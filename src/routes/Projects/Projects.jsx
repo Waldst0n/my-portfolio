@@ -14,10 +14,6 @@ const Projects = () => {
                 </h1>
             </div>
 
-            <h1 className="text-tertiaryColor text-2xl mb-14 ">
-                Segue abaixo o design pronto para visualização
-            </h1>
-
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-5 ">
                 <Card
                     image={image}

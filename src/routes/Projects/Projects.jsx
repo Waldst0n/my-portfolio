@@ -18,7 +18,7 @@ const Projects = () => {
                 Segue abaixo o design pronto para visualização
             </h1>
 
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 items-center justify-center gap-5 ">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-5 ">
                 <Card
                     image={image}
                     title="Task Manager"
@@ -27,8 +27,6 @@ const Projects = () => {
                         'https://gerenciador-de-tarefas-front-flax.vercel.app/'
                     }
                 />
-            </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 items-center justify-center gap-5 ">
                 <Card
                     image={okanban}
                     title="Task Manager"
